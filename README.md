@@ -19,3 +19,13 @@ gpgcheck=1
 ```
 
 create mysql database and user for wordpress
+
+
+
+install nginx
+'''bash
+sudo yum install epel-release yum-utils
+sudo yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+sudo yum-config-manager --enable remi-php72
+sudo yum install php-cli php-fpm php-mysql php-json php-opcache php-mbstring php-xml php-gd php-curl
+``` 
